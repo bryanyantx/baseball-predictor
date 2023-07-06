@@ -30,6 +30,10 @@ body {
   cursor: pointer;
 }
 
+.login-header {
+    padding-top: 50px;
+    text-align: center;
+}
 header {
     text-align: center;
     background-color: #87c4e0;
