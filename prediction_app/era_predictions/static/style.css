@@ -1,0 +1,23 @@
+.login-form {
+  max-width: 500px;
+  margin: auto;
+}
+.login-form div {
+  margin-bottom: 20px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  padding: 20px;
+  background-color: #27c82d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
