@@ -1,10 +1,18 @@
+* {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
 .login-form {
-  max-width: 500px;
+  max-width: 350px;
   margin: auto;
 }
+
 .login-form div {
   margin-bottom: 20px;
-  font-family:'Courier New', Courier, monospace;
 }
 
 .login-form input[type="text"],
@@ -15,9 +23,17 @@
 .login-form input[type="submit"] {
   width: 100%;
   padding: 20px;
-  background-color: #27c82d;
+  background-color: #59c114;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+header {
+    text-align: center;
+    background-color: #87c4e0;
+    color: #000000;
+    padding: 30px;
+    font-size: 35px;
 }
