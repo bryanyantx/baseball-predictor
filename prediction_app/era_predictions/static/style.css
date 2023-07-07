@@ -79,6 +79,16 @@ header {
     background-color: #b41d1d;
 }
 
+.register-button {
+    width: 10%;
+    padding: 15px;
+    background-color: #59c114;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .era-form {
     text-align: center;
 }
