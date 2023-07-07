@@ -14,44 +14,44 @@ Home Page.
   <p>Enter current pitching statistics:</p>
   <form method="post">
     {% csrf_token %}
-    <div>
+    <div class="stat-field">
       <label for="input1">Batting Average:</label>
       <input type="text" id="input1" name="input1" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input2">BABIP:</label>
       <input type="text" id="input2" name="input2" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input3">SLG:</label>
       <input type="text" id="input3" name="input3" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input4">wOBA:</label>
       <input type="text" id="input4" name="input4" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input5">xwOBA:</label>
       <input type="text" id="input5" name="input5" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input6">xBA:</label>
       <input type="text" id="input6" name="input6" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input7">Launch Speed:</label>
       <input type="text" id="input7" name="input7" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input8">Spin Rate:</label>
       <input type="text" id="input8" name="input8" required>
     </div>
-    <div>
+    <div class="stat-field">
       <label for="input9">Velocity:</label>
       <input type="text" id="input9" name="input9" required>
     </div>
 
-    <div>
+    <div class="predict-button">
       <input type="submit" value="Predict">
     </div>
   </form>

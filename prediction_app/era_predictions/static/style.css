@@ -45,14 +45,20 @@ header {
     padding: 30px;
     font-size: 35px;
 }
-footer {
-    background-color: #87c4e0;
-    color: #000000;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.stat-field {
+    padding: 5px;
 }
+.predict-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.predict-button input[type="submit"] {
+    width: 20%;
+    padding: 20px;
+    background-color: #59c114;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
