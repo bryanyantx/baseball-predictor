@@ -78,3 +78,7 @@ header {
 .logout-button:hover {
     background-color: #b41d1d;
 }
+
+.era-form {
+    text-align: center;
+}
