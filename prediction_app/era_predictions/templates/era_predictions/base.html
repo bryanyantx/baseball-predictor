@@ -12,6 +12,11 @@
         <div class="header-content">
           Baseball Predictor
         </div>
+        {% if user.is_authenticated %}
+        <div>
+            <a class="logout-button" href="{% url 'logout' %}">Logout</a>
+        </div>
+        {% endif %}
     </header>
 
     {% block content %}

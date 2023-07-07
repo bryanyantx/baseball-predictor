@@ -61,4 +61,20 @@ header {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-  }
+}
+
+.logout-button {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 15px;
+    background-color: #e6382c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #b41d1d;
+}
