@@ -99,6 +99,16 @@ header {
     cursor: pointer;
 }
 
+.register-button:hover {
+    width: 10%;
+    padding: 15px;
+    background-color: #46990f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .era-form {
     text-align: center;
 }
