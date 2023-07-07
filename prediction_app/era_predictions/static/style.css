@@ -34,6 +34,16 @@ body {
   cursor: pointer;
 }
 
+.login-form input[type="submit"]:hover {
+    width: 100%;
+    padding: 20px;
+    background-color: #46990f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
 .login-header {
     padding-top: 50px;
     text-align: center;
