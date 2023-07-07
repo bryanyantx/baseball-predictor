@@ -72,6 +72,15 @@ header {
     border-radius: 8px;
     cursor: pointer;
 }
+.predict-button input[type="submit"]:hover {
+    width: 20%;
+    padding: 20px;
+    background-color: #46990f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 .logout-button {
     display: inline-block;
