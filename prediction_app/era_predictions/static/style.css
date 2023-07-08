@@ -121,3 +121,23 @@ header {
 .era-form {
     text-align: center;
 }
+
+.predictions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto
+}
+
+.predictions-table th, .predictions-table td {
+    padding: 7px;
+    text-align: left;
+    border-bottom: 1px solid #cccac5b7;
+}
+
+.predictions-table th {
+    background-color: #cccac5b7;
+}
+
+.predictions-table tr:hover {
+    background-color: #a39696ec;
+}
