@@ -50,6 +50,7 @@ body {
 }
 header {
     text-align: center;
+    font-weight: bold;
     background-color: #87c4e0;
     color: #000000;
     padding: 30px;
