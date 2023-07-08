@@ -141,3 +141,10 @@ header {
 .predictions-table tr:hover {
     background-color: #a39696ec;
 }
+
+.error {
+    font-size: 20px;
+    font-weight: bold;
+    color:#c64b32;
+    text-align: center;
+}
