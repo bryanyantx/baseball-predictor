@@ -7,6 +7,50 @@
     {% endfor %}
   </ul>
 
+  <h2>Recent Predictions</h2>
+  {% if predictionlist %}
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Batting Average</th>
+          <th>BABIP</th>
+          <th>SLG</th>
+          <th>wOBA</th>
+          <th>xwOBA</th>
+          <th>xBA</th>
+          <th>Launch Speed</th>
+          <th>Spin Rate</th>
+          <th>Velocity</th>
+
+          <th>Prediction Output</th>
+          <th>Time/Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for prediction in predictionlist %}
+          <tr>
+            <td>{{ prediction.user.username }}</td>
+            <td>{{ prediction.input1 }}</td>
+            <td>{{ prediction.input2 }}</td>
+            <td>{{ prediction.input3 }}</td>
+            <td>{{ prediction.input4 }}</td>
+            <td>{{ prediction.input5 }}</td>
+            <td>{{ prediction.input6 }}</td>
+            <td>{{ prediction.input7 }}</td>
+            <td>{{ prediction.input8 }}</td>
+            <td>{{ prediction.input9 }}</td>
+            <td>{{ prediction.output}}</td>
+            <td>{{ prediction.timestamp }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p>None found.</p>
+  {% endif %}
+
+
   <div class = "era-form">
   <h2>Earned Run Average Prediction</h2>
   <p>Enter current pitching statistics:</p>
