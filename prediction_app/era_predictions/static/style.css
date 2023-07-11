@@ -149,3 +149,17 @@ header {
     color:#c64b32;
     text-align: center;
 }
+
+.stat-field {
+    margin-bottom: 8px;
+}
+
+.stat-field label {
+    display: inline-block;
+    width: 100px;
+}
+
+.stat-field input[type="text"] {
+    width: 150px;
+    padding: 8px;
+}
