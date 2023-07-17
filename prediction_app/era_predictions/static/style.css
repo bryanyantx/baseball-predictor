@@ -166,10 +166,11 @@ header {
 
 .faq-section {
     margin-top: 5px;
+    color:#130648
 }
 
 .faq-question {
-    margin-bottom: 5px;
+    margin-bottom: 5px;  
 }
 
 .faq-question p {
