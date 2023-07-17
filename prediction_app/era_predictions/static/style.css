@@ -171,3 +171,7 @@ header {
 .faq-question {
     margin-bottom: 5px;
 }
+
+.faq-question p {
+    font-size: 15px;
+}
