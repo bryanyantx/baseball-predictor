@@ -166,7 +166,9 @@ header {
 
 .faq-section {
     margin-top: 5px;
-    color:#130648
+    color:#130648;
+    background-color:#d1cce8;
+    padding: 25px;
 }
 
 .faq-question {
