@@ -165,7 +165,6 @@ header {
 }
 
 .faq-section {
-    margin-top: 5px;
     color:#130648;
     background-color:#d1cce8;
     padding: 25px;
@@ -182,4 +181,6 @@ header {
 .registered-users {
     margin-top: 30px;
     color:#650505;
+    background-color:#dcb1a4;
+    padding: 25px;
 }
